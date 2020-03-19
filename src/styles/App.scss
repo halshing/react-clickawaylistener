@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.app {
+  .menu-buttons {
+    display: flex;
+
+    button {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+  }
+
+  .popout-dialog {
+    position: absolute;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #808080;
+
+    h4 {
+      margin: 0 0 5px 0;
+      text-align: center;
+    }
+
+    .form {
+      text-align: left;
+      margin-top: 10px;
+
+      .action-buttons {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .menu-btn-2 {
+    .popout-dialog {
+      width: 400px;
+    }
+  }
+}

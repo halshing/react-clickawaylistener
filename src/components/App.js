@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import MenuButtons from "./MenuButtons";
+import "../styles/App.scss";
 
 const App = () => {
-  return <div className="app"></div>;
+  return (
+    <div className="app">
+      <MenuButtons />
+    </div>
+  );
 };
 
 export default App;
